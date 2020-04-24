@@ -10,13 +10,13 @@
 
 @font-face {
     font-family: "ClearSans Regular";
-    font-weight: 200;
+    font-weight: 400;
     src: url("../fonts/ClearSans-Regular-webfont.woff") format("woff");
   }
 
 @font-face {
     font-family: "ClearSans Medium";
-    font-weight: 200;
+    font-weight: 600;
     src: url("../fonts/ClearSans-Medium-webfont.woff") format("woff");
   }
 
@@ -393,6 +393,69 @@ a:focus {
 .c-logo__symbol {
     height: 100%;
 }
+
+/*
+    Component: Nav
+    ---
+    Main navigation of the site
+*/
+
+.c-nav {
+    font-size: 13px;
+    line-height: 44px;
+  }
+
+.c-nav__item{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+  
+.c-nav__link {
+    text-decoration: none;
+    padding: 8px 0;
+    display: block;
+}
+  
+  .c-nav__link,
+  .c-nav__link:visited,
+  .c-nav__link:active {
+    color: #202024;
+  }
+
+@media (min-width: 768px) {
+    .c-nav__list {
+      display: flex;
+      margin-left: -16px;
+      margin-right: -16px;
+    }
+  
+    .c-nav__link {
+      padding: 8px 16px;
+    }
+}
+
+/*
+    Component: header
+    ---
+    Main header of the website
+*/
+
+.c-header__nav {
+    display: block;
+}
+  
+  @media (min-width: 992px) {
+    .c-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  
+    .c-header__nav {
+      display: block;
+    }
+  }
 
 /*------------------------------------*\
   #UTILITIES
