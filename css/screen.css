@@ -33,6 +33,7 @@
 html {
   font-size: 18px;
   line-height: 32px;
+  font-weight: 200;
   font-family: "ClearSans Light", Helvetica, arial, sans-serif;
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
@@ -514,7 +515,12 @@ a:focus {
     Utility classes to put specific colors onto elements
 */
 
+.u-normal-text--color{
+  color: #8EC7FF
+}
+
 .u-color-secondary-base {
+
 }
 
 /*
