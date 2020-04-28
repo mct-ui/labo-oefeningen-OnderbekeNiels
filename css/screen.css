@@ -79,7 +79,8 @@ html {
 */
 
 img {
-  max-width: 100%;
+  /* max-width: 100%; */
+  width: 100%;
   vertical-align: top;
 }
 
@@ -488,8 +489,6 @@ a:focus {
 
 .c-figure {
   position: relative;
-  max-width: 1128px;
-  margin: 0 auto 0 auto;
 }
 
 .c-figure__figcaption {
@@ -497,7 +496,7 @@ a:focus {
   font-size: 12px;
   color: black;
   padding: 8px 8px 8px 0px;
-  text-align: end;
+  text-align: right;
   position: absolute;
   top: 8px;
   right: 8px;
@@ -515,12 +514,11 @@ a:focus {
     Utility classes to put specific colors onto elements
 */
 
-.u-normal-text--color{
-  color: #8EC7FF
+.u-normal-text--color {
+  color: #8ec7ff;
 }
 
 .u-color-secondary-base {
-
 }
 
 /*
